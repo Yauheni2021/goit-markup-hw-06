@@ -817,10 +817,21 @@ ul {
   color: var(--title-text-color);
 }
 
+.modal-thumb {
+position: relative;
+
+}
+
 .modal-label {
   display: flex;
   flex-direction: column;
   width: 448px;
+}
+
+.label-icon {
+  position: absolute;
+  left: 12px;
+  bottom: 20px;
 
 }
 
@@ -835,6 +846,8 @@ ul {
 
 .modal-input {
   margin-bottom: 10px;
+  height: 40px;
+  padding-left: 30px;
 }
 
 .modal-textarea {
